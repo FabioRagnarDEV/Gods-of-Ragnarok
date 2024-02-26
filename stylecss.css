@@ -1,0 +1,76 @@
+body {
+    background-color: #F5F5F5;
+    font-family: 'Georgia', serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h5 {
+    text-shadow: 2px 2px 4px #000000;
+    color: #555;
+}
+
+.card {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-zeus {
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.8), 0 0 20px rgba(255, 255, 0, 0.5), 0 0 30px rgba(255, 255, 0, 0.3);
+}
+
+.card-odin {
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.8), 0 0 30px rgba(0, 0, 255, 0.5), 0 0 45px rgba(0, 0, 255, 0.3);
+}
+
+.card-seth {
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8), 0 0 30px rgba(255, 0, 0, 0.5), 0 0 45px rgba(255, 0, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-description {
+    padding: 20px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px 0;
+}
+
+.card img {
+width: 400px; /* Largura padronizada */
+height: 400px; /* Altura padronizada */
+display: block;
+object-fit: cover; /* Mantém a proporção da imagem e cobre completamente o espaço */
+}
+
+.card-description {
+padding: 20px;
+text-align: justify;
+}
+
+.card-zeus, .card-odin, .card-seth {
+width: 400px; /* Largura padronizada para todos os tipos de card */
+}
+
+
+
+.footer {
+background-color: #333;
+color: #FFF;
+padding: 10px 0;
+}
